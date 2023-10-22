@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sumTip, .sumInvoice, .partTip {
+    visibility: hidden;
+    margin-left: 10%;
+}
+
+main {
+    margin: 0 auto;
+    width: 40vw;
+    section {
+        border: 1px solid black;
+        padding: 20px;
+        margin-top: 50%;
+        border-radius: 40px;
+        background-color: bisque;
+        h1 {
+            text-align: center;
+        }
+        .boxInside {
+            margin: 20px auto;
+            width: 30vw;
+            img {
+                width: 5%;
+                display: inline-block;
+                transform: translateY(7px);
+                position: relative;
+            }
+            input {
+                width: 94%;
+                margin-bottom: 10px;
+            }
+            p {
+                padding-left: 6%;
+            }
+        }
+        select {
+            width: 30vw;
+            text-align: center;
+            margin-inline: 10%;
+        }
+        button {
+            padding: 5px;
+            width: 15%;
+            margin-top: 10px;
+            margin-left: 41%;
+        }
+    }
+}

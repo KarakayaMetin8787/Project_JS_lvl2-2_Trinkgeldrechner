@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h1>Trinkgeldrechner</h1>
+            <div class="boxInside">
+                <p>Wie hoch war die Rechnung?</p>
+                <div>
+                    <img src="./assets/img/money.png" alt="">
+                    <input type="number" id="sumInvoice">
+                </div>
+                <p>Wie viele Menschen teilen sich die Rechnung?</p>
+                <div>
+                    <img src="./assets/img/ppl.png" alt="">
+                    <input type="number" id="sumPpl">
+                </div>
+            </div>
+            <select name="" id="selection">
+                <option value="0.02">Schlechter Service</option>
+                <option value="0.1">Mittlerer Service</option>
+                <option value="0.2">Super Service</option>
+            </select>
+            <br>
+            <button onclick="check()">Berechne</button>
+            <p class="sumTip">#</p>
+            <p class="sumInvoice">#</p>
+            <p class="partTip">#</p>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
+
